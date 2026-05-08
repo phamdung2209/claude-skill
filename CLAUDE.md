@@ -45,7 +45,15 @@ When your changes create orphans:
 
 The test: Every changed line should trace directly to the user's request.
 
-## 4. Goal-Driven Execution
+## 4. Optimize and Modernize
+
+**Look for ways to make the code shorter, smarter, and more efficient. Prefer the latest JavaScript syntax when applicable.**
+
+- After writing a working solution, re-read it once and ask: can this be expressed more concisely without losing clarity?
+- When a modern language feature fits the situation, use it instead of an older verbose alternative.
+- Don't sacrifice readability for brevity. A dense one-liner is worse than three clear lines. Aim for the simplest expression that a senior engineer would consider idiomatic.
+
+## 5. Goal-Driven Execution
 
 **Define success criteria. Loop until verified.**
 
